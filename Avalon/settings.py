@@ -155,7 +155,8 @@ SUIT_CONFIG = {
     'MENU_OPEN_FIRST_CHILD': True,  # Default True
     'MENU': (
         'sites',
-        {'label': 'Modulo Ordenes', 'icon': 'icon-file', 'models': ('core.order', 'core.part', 'core.customer'), },
+        {'label': 'Modulo Ordenes', 'icon': 'icon-file', 'models': ('core.order', 'core.part',
+                                                                    'core.customer', 'core.employee'), },
     ),
 
     # misc
